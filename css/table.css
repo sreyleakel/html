@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background: rgb(228, 225, 225);
+}
+.container{
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+    
+    
+}
+table{
+    width:100% ;
+    border-collapse: collapse;
+    background: white;
+    border:2px solid;
+    
+    
+}
+th, tr, td{
+    border: 1px dashed black;
+    text-align: left;
+    padding: 20px;
+}
+thead th{
+    background: rgb(119, 212, 212);
+    color: rgb(53, 18, 18);
+    
+    
+}
+tbody tr:nth-child(even){
+    background: rgb(119, 212, 212);
+}
